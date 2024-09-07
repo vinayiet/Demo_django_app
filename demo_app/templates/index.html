@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Django Demo</title>
+</head>
+<body>
+    <h1>Welcome to the Django Demo App</h1>
+    <form action="{% url 'greet' %}" method="POST">
+        {% csrf_token %}
+        <label for="name">Enter your name:</label>
+        <input type="text" id="name" name="name" required>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

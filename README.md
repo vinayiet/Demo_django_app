@@ -34,9 +34,7 @@ django-demo/
 │   ├── urls.py
 │   ├── templates/
 │   │   └── index.html
-│   ├── static/
-│       └── css/
-│           └── style.css
+│       --- greet.html
 │
 └── manage.py
 ```
